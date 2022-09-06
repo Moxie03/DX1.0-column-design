@@ -6,6 +6,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    width: 100%;
+    height: 100%;
+}
+
 body{
     font-family: 'Inter', sans-serif;
 }
@@ -76,16 +81,74 @@ color: var(--main-color);
 }
 
 .headingwriteup{
-    /* border: 3px solid black; */
     margin: 30px 0;
 }
+
 /* ==== First section ends here ==== */
 
 
 /* ==== Second section starts here ==== */
+
+.secondsection{
+    /* height: 300px; */
+    /* border: var(--blackborder); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+.secondsection-leftdiv{
+    text-align: center;
+    width: 310px;
+    background: var(--gray-color);
+    height: 400px;
+    margin-right: 20px;
+    padding: 40px 20px;
+
+}
+.secondsection-leftdiv p{
+    text-align: left;
+    margin: 20px 0;
+}
+
+.secondsection-rightdiv{
+    height: 460px;
+    width: 340px;
+    background: var(--main-color);
+}
+
+
 /* ==== Second section ends here ==== */
 
 /* ==== Third section starts here ==== */
+
+.thirdsection{
+    padding: 30px 0;
+    flex-wrap: wrap;
+    /* border: var(--blackborder); */
+    display: flex;
+    justify-content: center;
+
+}
+
+.thirdsection-leftdiv{
+    height: 460px;
+    width: 340px;
+    background: var(--gray-color);
+}
+
+.thirdsection-rightdiv{
+    height: 460px;
+    width: 340px;
+    background: var(--main-color);
+    padding:40px 20px;
+}
+
+.thirdsection-rightdiv p{
+    /* text-align: left; */
+    margin: 20px;
+}
 /* ==== Third section ends here ==== */
 
 /* ==== Footer section starts here ==== */
