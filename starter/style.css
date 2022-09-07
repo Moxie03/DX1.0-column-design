@@ -152,6 +152,24 @@ color: var(--main-color);
 /* ==== Third section ends here ==== */
 
 /* ==== Footer section starts here ==== */
+footer{
+    color: var(--white-color);
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+.footericons-container{
+    text-align: center;
+    /* height: 100px; */
+    /* border: var(--blackborder); */
+    width: 200px;
+}
+.footericons{
+    font-size: 25px;
+    margin: 0 5px;
+}
 /* ==== Footer section ends here ==== */
 
 
