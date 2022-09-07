@@ -129,6 +129,7 @@ color: var(--main-color);
     /* border: var(--blackborder); */
     display: flex;
     justify-content: center;
+    background: var(--gray-color);
 
 }
 
